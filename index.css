@@ -72,3 +72,23 @@ font-size: 30px;
   background-color: rgb(26, 153, 226);
   color: white;
 }
+
+/* desktop */
+@media screen and (min-width:1200px){
+  .nav-links{
+    left: 80%;
+  }
+  .container{
+    left: 35%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .container{
+    left: 2%;
+  }
+  .nav-links{
+    left: 65%;
+    width: 200px;
+  }
+}
