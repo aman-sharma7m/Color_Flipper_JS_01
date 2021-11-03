@@ -4,6 +4,8 @@ var button=document.getElementById('btn');
 //console.log(button);
 var color=document.querySelector('.color');
 //console.log(color);
+var simple=document.querySelectorAll('.nav-links li');
+simple[1].style.backgroundColor='#80808047';
 
 
 //event listner
